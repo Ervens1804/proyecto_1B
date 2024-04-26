@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practicando</title>
+</head>
+
+    <FRAMESET COLS="25%,75%">
+        <!-- Divides the page into two columns (Col 1 and Col 2) -->
+        <FRAMESET ROWS="75%,25%"> 
+        <!-- Divides Col 1 into two parts - Cell 1 (on top) that is three times as large as Cell 2. The size can also be specified in an absolute fashion "100, 50,*" - this is typically in terms of pixels. The * indicates that the remaining area is allocated to the last row However absolute measurement is not preferred since this could lead to unpredictable results due to varying screen resolutions -->
+        <FRAME SRC="html/demos.html">
+        <FRAME SRC="html/march.html"> 
+        <!-- The documents Blog and Demos will get loaded in Cell 1 and 2 respectively -->
+        </FRAMESET>
+
+
+        <FRAMESET ROWS="33%,33%,33%">
+        <!-- Divides Col 2 into three parts - Cell 3, 4 and 5 - all of the same size -->
+        <FRAME SRC="html/privacy.html">
+        <FRAME SRC="html/contact.html">
+        <FRAME SRC="html/system.html">
+        <!-- The documents Privacy, Contact and Sitemap will get loaded in Cell 3, 4 and 5 respectively -->
+        </FRAMESET>
+
+    </FRAMESET>
+
+
+</html>
